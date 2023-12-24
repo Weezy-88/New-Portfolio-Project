@@ -1,9 +1,35 @@
 :root {
-  --main-color: #264e70;
+  --main-color: black;
   --secondary-color: #ffcbcb;
   --poppins: "Poppins", sans-serif;
   --Playfair: "Playfair Display", serif;
 }
+nav {
+  padding: 20px 0;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+  line-height: 15px;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+.logo {
+  max-height: 40px;
+}
+
 .hero {
   background-color: #f9f7fe;
   text-align: center;
@@ -160,5 +186,9 @@ h5 {
 
   .about-me-section h1 h2 p img {
     text-align: center;
+  }
+
+  nav a {
+    font-size: 14px;
   }
 }
