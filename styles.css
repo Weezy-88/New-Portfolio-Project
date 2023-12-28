@@ -170,6 +170,13 @@ h5 {
 .contact-section p {
   margin: 0;
 }
+.contact-section a {
+  color: black;
+  text-decoration: none;
+}
+.contact-section a:hover {
+  color: var(--secondary-color);
+}
 footer {
   margin: 60px 0;
 }
